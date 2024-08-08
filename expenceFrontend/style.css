@@ -1,0 +1,62 @@
+form{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction:column;
+  width:300px;
+  padding:30px;
+  border:2px solid black;
+  border-radius:10px;
+  margin:auto;
+  margin-top:50px;
+}
+h1{
+  margin:auto;
+  text-align: center;
+  margin-top:50px;
+}
+input{
+  margin:10px 0px;
+  padding:10px;
+  border:2px solid pink;
+}
+select{
+  padding:10px 0px;
+  margin:10px 0px;
+}
+#submit{
+  padding:10px 0px;
+  margin:10px 0px;
+  background-color: red;
+  color:white;
+  border:none;
+}
+ul{
+  list-style: none;
+  width:500px;
+  margin:auto;
+  
+}
+li{
+  border:2px solid black;
+  padding:10px;
+  display:flex;
+  justify-content:space-between;
+  font-weight:bold;
+  margin:10px 0px;
+}
+.delete-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:5px;
+  border-radius:3px;
+  margin-right:5px;
+}
+.edit-btn{
+  background:green;
+  color:white;
+  border:none;
+  padding:5px;
+  border-radius:3px;
+  margin-right:5px;
+}
