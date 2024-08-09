@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    form{
+      width: 300px;
+      border: 1px solid black;
+      padding: 10px;
+      margin:auto;
+      margin-top: 30px;
+    }
+    form > input{
+      display: block;
+      width: 100%;
+      padding: 2px;
+    }
+    textarea{
+      display: block;
+      width: 100%;
+    }
+    ul{
+      text-align: center;
+    }
+    li{
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <form action="" onSubmit="itemHandler()">
+    <h1 style="text-align: center;">Shop management</h1>
+    <label for="name">Item name : </label>
+    <input type="text" name="name" placeholder="Enter product name">
+    <label for="price">Item price : </label>
+    <input type="number" name="price" placeholder="Enter product price">
+    <label for="quantity">Quantity : </label>
+    <input type="text" name="quantity" placeholder="Enter product quantity">
+    <label for="description">Description : </label>
+    <textarea type="text" name="description" placeholder="Enter description..."></textarea>
+    <button type="submit">Add item</button>
+  </form>
+
+  <ul id="ul">
+
+  </ul>
+
+  <script src="./index.js">
+
+  </script>
+</body>
+</html>
