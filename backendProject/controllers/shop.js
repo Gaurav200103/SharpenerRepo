@@ -1,3 +1,4 @@
+const Cart = require('../models/cart');
 const Product = require('../models/product');
 
 exports.getProducts = (req, res, next) => {
@@ -30,6 +31,12 @@ exports.getCart = (req, res, next) => {
     pageTitle: 'Your Cart'
   });
 };
+
+exports.postCart = (req, res) =>{
+  Cart.create();
+
+  res.send();
+}
 
 exports.getOrders = (req, res, next) => {
   res.render('shop/orders', {
